@@ -4,6 +4,7 @@
   "description": "ini adalah pab api ",
   "main": "app.js",
   "scripts": {
+    "dev": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,5 +19,17 @@
   "bugs": {
     "url": "https://github.com/totti999/pab2-api/issues"
   },
-  "homepage": "https://github.com/totti999/pab2-api#readme"
+  "homepage": "https://github.com/totti999/pab2-api#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "joi": "^17.9.2",
+    "moment": "^2.29.4",
+    "mongodb": "^5.6.0",
+    "mongoose": "^7.2.0",
+    "nodemon": "^2.0.22"
+  }
 }
