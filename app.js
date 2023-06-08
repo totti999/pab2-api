@@ -41,3 +41,6 @@ db.once('open', ()=>{
 app.listen(process.env.PORT, () => {
     console.log(`Server Running on port ${process.env.PORT}`)
 })
+
+
+// https: //pab2-api.vercel.app/
